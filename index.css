@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer utilities {
+  .width-vmin {
+    width: 40vmin;
+  }
+  .height-vmin {
+    height: 56vmin;
+  }
+  .object-right-center {
+    object-position: 100% center;
+  }
+} */
+
+#image-track > img {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 100% center;
+}

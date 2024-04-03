@@ -1,0 +1,15 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "my gallery",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build /index.css -o dist/index.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sunny",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
